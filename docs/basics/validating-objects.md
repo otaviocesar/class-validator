@@ -11,7 +11,7 @@ import {
   Min,
   Max,
   ValidationError,
-} from 'class-validator';
+} from 'class-validator-fix';
 
 export class Book {
   @IsString()
@@ -58,4 +58,4 @@ async function awaitExample() {
 }
 ```
 
-Run this example on [Stackblitz](https://stackblitz.com/edit/class-validator-simple-example-u9h1ve?file=index.ts)
+Run this example on [Stackblitz](https://stackblitz.com/edit/class-validator-fix-simple-example-u9h1ve?file=index.ts)

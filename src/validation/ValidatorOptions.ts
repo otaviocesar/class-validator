@@ -3,7 +3,7 @@
  */
 export interface ValidatorOptions {
   /**
-   * If set to true then class-validator will print extra warning messages to the console when something is not right.
+   * If set to true then class-validator-fix will print extra warning messages to the console when something is not right.
    */
   enableDebugMessages?: boolean;
 

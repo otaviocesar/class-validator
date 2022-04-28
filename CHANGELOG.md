@@ -2,7 +2,7 @@
 
 _This changelog follows the [keep a changelog][keep-a-changelog]_ format to maintain a human readable changelog.
 
-### [0.13.2](https://github.com/typestack/class-validator/compare/v0.13.1...v0.13.2) (2021-11-20)
+### [0.13.2](https://github.com/typestack/class-validator-fix/compare/v0.13.1...v0.13.2) (2021-11-20)
 
 > **NOTE:** This version fixes a security vulnerability allowing denial of service attacks with a specially crafted request payload.
 > Please update as soon as possible.
@@ -17,7 +17,7 @@ _This changelog follows the [keep a changelog][keep-a-changelog]_ format to main
 - `validator` package updated to `13.5.2` from `13.5.2`
 - various dev-dependencies updated
 
-### [0.13.1](https://github.com/typestack/class-validator/compare/v0.13.0...v0.13.1) (2021-01-14)
+### [0.13.1](https://github.com/typestack/class-validator-fix/compare/v0.13.0...v0.13.1) (2021-01-14)
 
 #### Added
 
@@ -35,7 +35,7 @@ _This changelog follows the [keep a changelog][keep-a-changelog]_ format to main
 
 - various dev dependencies has been updated
 
-### [0.13.0](https://github.com/typestack/class-validator/compare/v0.12.2...v0.13.0) (2021-01-11)
+### [0.13.0](https://github.com/typestack/class-validator-fix/compare/v0.12.2...v0.13.0) (2021-01-11)
 
 #### Added
 
@@ -57,40 +57,40 @@ _This changelog follows the [keep a changelog][keep-a-changelog]_ format to main
 - build process generates include both ES/CommonJS and UMD variations
 - various dev dependencies has been updated
 
-### [0.12.2](https://github.com/typestack/class-validator/compare/v0.12.1...v0.12.2) (2020-04-23)
+### [0.12.2](https://github.com/typestack/class-validator-fix/compare/v0.12.1...v0.12.2) (2020-04-23)
 
 #### Fixed
 
-- move `tslib` from `peerDependencies` to `dependencies` ([827eff1](https://github.com/typestack/class-validator/commit/827eff1)), closes [#588](https://github.com/typestack/class-validator/issues/588)
+- move `tslib` from `peerDependencies` to `dependencies` ([827eff1](https://github.com/typestack/class-validator-fix/commit/827eff1)), closes [#588](https://github.com/typestack/class-validator-fix/issues/588)
 
-### [0.12.1](https://github.com/typestack/class-validator/compare/v0.12.0...v0.12.1) (2020-04-18)
-
-#### Fixed
-
-- apply only nested validator for ValidateNested multi-dimensional array ([c463be5](https://github.com/typestack/class-validator/commit/c463be5))
-
-### [0.12.0](https://github.com/typestack/class-validator/compare/v0.11.1...v0.12.0) (2020-04-18)
+### [0.12.1](https://github.com/typestack/class-validator-fix/compare/v0.12.0...v0.12.1) (2020-04-18)
 
 #### Fixed
 
-- accept negative timezone in isDateString ([#564](https://github.com/typestack/class-validator/issues/564)) ([2012d72](https://github.com/typestack/class-validator/commit/2012d72)), closes [#565](https://github.com/typestack/class-validator/issues/565)
-- apply all decorators type PropertyDecorator ([#556](https://github.com/typestack/class-validator/issues/556)) ([5fb36e3](https://github.com/typestack/class-validator/commit/5fb36e3)), closes [#555](https://github.com/typestack/class-validator/issues/555)
-- avoiding metadataStorage from DI ([#335](https://github.com/typestack/class-validator/issues/335)) ([b57fef4](https://github.com/typestack/class-validator/commit/b57fef4)), closes [#328](https://github.com/typestack/class-validator/issues/328) [#261](https://github.com/typestack/class-validator/issues/261) [#132](https://github.com/typestack/class-validator/issues/132)
-- correct registerDecorator options argument ([7909ec6](https://github.com/typestack/class-validator/commit/7909ec6)), closes [#302](https://github.com/typestack/class-validator/issues/302)
-- IsNumberString accept isNumbericOptions as argument ([62b993f](https://github.com/typestack/class-validator/commit/62b993f)), closes [#518](https://github.com/typestack/class-validator/issues/518) [#463](https://github.com/typestack/class-validator/issues/463)
-- optional `constraints` property in ValidationError ([#465](https://github.com/typestack/class-validator/issues/465)) ([84680ad](https://github.com/typestack/class-validator/commit/84680ad)), closes [#309](https://github.com/typestack/class-validator/issues/309)
-- pass context to ValidationError for async validations ([#533](https://github.com/typestack/class-validator/issues/533)) ([4eb1216](https://github.com/typestack/class-validator/commit/4eb1216))
-- switch isLatitude & isLongitude validators ([#513](https://github.com/typestack/class-validator/issues/513)) ([5497179](https://github.com/typestack/class-validator/commit/5497179)), closes [#502](https://github.com/typestack/class-validator/issues/502)
-- switch isLatitude & isLongitude validators ([#537](https://github.com/typestack/class-validator/issues/537)) ([c27500b](https://github.com/typestack/class-validator/commit/c27500b))
-- ValidateNested support multi-dimensional arrays ([#539](https://github.com/typestack/class-validator/issues/539)) ([62678e1](https://github.com/typestack/class-validator/commit/62678e1))
+- apply only nested validator for ValidateNested multi-dimensional array ([c463be5](https://github.com/typestack/class-validator-fix/commit/c463be5))
+
+### [0.12.0](https://github.com/typestack/class-validator-fix/compare/v0.11.1...v0.12.0) (2020-04-18)
+
+#### Fixed
+
+- accept negative timezone in isDateString ([#564](https://github.com/typestack/class-validator-fix/issues/564)) ([2012d72](https://github.com/typestack/class-validator-fix/commit/2012d72)), closes [#565](https://github.com/typestack/class-validator-fix/issues/565)
+- apply all decorators type PropertyDecorator ([#556](https://github.com/typestack/class-validator-fix/issues/556)) ([5fb36e3](https://github.com/typestack/class-validator-fix/commit/5fb36e3)), closes [#555](https://github.com/typestack/class-validator-fix/issues/555)
+- avoiding metadataStorage from DI ([#335](https://github.com/typestack/class-validator-fix/issues/335)) ([b57fef4](https://github.com/typestack/class-validator-fix/commit/b57fef4)), closes [#328](https://github.com/typestack/class-validator-fix/issues/328) [#261](https://github.com/typestack/class-validator-fix/issues/261) [#132](https://github.com/typestack/class-validator-fix/issues/132)
+- correct registerDecorator options argument ([7909ec6](https://github.com/typestack/class-validator-fix/commit/7909ec6)), closes [#302](https://github.com/typestack/class-validator-fix/issues/302)
+- IsNumberString accept isNumbericOptions as argument ([62b993f](https://github.com/typestack/class-validator-fix/commit/62b993f)), closes [#518](https://github.com/typestack/class-validator-fix/issues/518) [#463](https://github.com/typestack/class-validator-fix/issues/463)
+- optional `constraints` property in ValidationError ([#465](https://github.com/typestack/class-validator-fix/issues/465)) ([84680ad](https://github.com/typestack/class-validator-fix/commit/84680ad)), closes [#309](https://github.com/typestack/class-validator-fix/issues/309)
+- pass context to ValidationError for async validations ([#533](https://github.com/typestack/class-validator-fix/issues/533)) ([4eb1216](https://github.com/typestack/class-validator-fix/commit/4eb1216))
+- switch isLatitude & isLongitude validators ([#513](https://github.com/typestack/class-validator-fix/issues/513)) ([5497179](https://github.com/typestack/class-validator-fix/commit/5497179)), closes [#502](https://github.com/typestack/class-validator-fix/issues/502)
+- switch isLatitude & isLongitude validators ([#537](https://github.com/typestack/class-validator-fix/issues/537)) ([c27500b](https://github.com/typestack/class-validator-fix/commit/c27500b))
+- ValidateNested support multi-dimensional arrays ([#539](https://github.com/typestack/class-validator-fix/issues/539)) ([62678e1](https://github.com/typestack/class-validator-fix/commit/62678e1))
 
 #### Changed
 
-- update build process to enable tree shaking ([#568](https://github.com/typestack/class-validator/issues/568)) ([11a7b8b](https://github.com/typestack/class-validator/commit/11a7b8b)), closes [#258](https://github.com/typestack/class-validator/issues/258) [#248](https://github.com/typestack/class-validator/issues/248) [#247](https://github.com/typestack/class-validator/issues/247) [#212](https://github.com/typestack/class-validator/issues/212)
+- update build process to enable tree shaking ([#568](https://github.com/typestack/class-validator-fix/issues/568)) ([11a7b8b](https://github.com/typestack/class-validator-fix/commit/11a7b8b)), closes [#258](https://github.com/typestack/class-validator-fix/issues/258) [#248](https://github.com/typestack/class-validator-fix/issues/248) [#247](https://github.com/typestack/class-validator-fix/issues/247) [#212](https://github.com/typestack/class-validator-fix/issues/212)
 
 #### Added
 
-- sync validatorjs version from v10.11.3 to v13.0.0 ([09120b7](https://github.com/typestack/class-validator/commit/09120b7)), closes [#576](https://github.com/typestack/class-validator/issues/576) [#425](https://github.com/typestack/class-validator/issues/425)
+- sync validatorjs version from v10.11.3 to v13.0.0 ([09120b7](https://github.com/typestack/class-validator-fix/commit/09120b7)), closes [#576](https://github.com/typestack/class-validator-fix/issues/576) [#425](https://github.com/typestack/class-validator-fix/issues/425)
 
 ### BREAKING CHANGES
 
@@ -100,7 +100,7 @@ _This changelog follows the [keep a changelog][keep-a-changelog]_ format to main
   BEFORE:
 
   ```ts
-  import { Validator } from 'class-validator';
+  import { Validator } from 'class-validator-fix';
 
   const validator = new Validator();
   validator.isNotIn(value, possibleValues);
@@ -110,7 +110,7 @@ _This changelog follows the [keep a changelog][keep-a-changelog]_ format to main
   AFTER:
 
   ```ts
-  import { isNotIn, isBoolean } from 'class-validator';
+  import { isNotIn, isBoolean } from 'class-validator-fix';
 
   isNotIn(value, possibleValues);
   isBoolean(value);
@@ -118,84 +118,84 @@ _This changelog follows the [keep a changelog][keep-a-changelog]_ format to main
 
 - IsNumberString decorator arguments changed to `@IsNumberString(ValidatorJS.IsNumericOptions, ValidationOptions)`.
 
-### [0.11.1](https://github.com/typestack/class-validator/compare/v0.11.0...v0.11.1) (2020-03-18)
+### [0.11.1](https://github.com/typestack/class-validator-fix/compare/v0.11.0...v0.11.1) (2020-03-18)
 
 #### Fixed
 
-- IsNumber validator now works when maxDecimalPlaces=0 ([#524](https://github.com/typestack/class-validator/issues/524)) ([b8aa922](https://github.com/typestack/class-validator/commit/b8aa922))
+- IsNumber validator now works when maxDecimalPlaces=0 ([#524](https://github.com/typestack/class-validator-fix/issues/524)) ([b8aa922](https://github.com/typestack/class-validator-fix/commit/b8aa922))
 
 #### Added
 
-- add all option in isuuid validator ([#452](https://github.com/typestack/class-validator/issues/452)) ([98e9382](https://github.com/typestack/class-validator/commit/98e9382))
-- add IsFirebasePushId validator ([#548](https://github.com/typestack/class-validator/issues/548)) ([e7e2e53](https://github.com/typestack/class-validator/commit/e7e2e53))
-- add options for isISO8601 validator ([#460](https://github.com/typestack/class-validator/issues/460)) ([90a6638](https://github.com/typestack/class-validator/commit/90a6638))
+- add all option in isuuid validator ([#452](https://github.com/typestack/class-validator-fix/issues/452)) ([98e9382](https://github.com/typestack/class-validator-fix/commit/98e9382))
+- add IsFirebasePushId validator ([#548](https://github.com/typestack/class-validator-fix/issues/548)) ([e7e2e53](https://github.com/typestack/class-validator-fix/commit/e7e2e53))
+- add options for isISO8601 validator ([#460](https://github.com/typestack/class-validator-fix/issues/460)) ([90a6638](https://github.com/typestack/class-validator-fix/commit/90a6638))
 
-### [0.11.0](https://github.com/typestack/class-validator/compare/v0.10.2...v0.11.0) (2019-11-01)
+### [0.11.0](https://github.com/typestack/class-validator-fix/compare/v0.10.2...v0.11.0) (2019-11-01)
 
 #### Fixed
 
-- create instance of ValidationError for whitelist errors ([#434](https://github.com/typestack/class-validator/issues/434)) ([a98f5dd](https://github.com/typestack/class-validator/commit/a98f5dd)), closes [#325](https://github.com/typestack/class-validator/issues/325)
-- pass context for isDefined and custom validators ([#296](https://github.com/typestack/class-validator/issues/296)) ([0ef898e](https://github.com/typestack/class-validator/commit/0ef898e)), closes [#292](https://github.com/typestack/class-validator/issues/292)
+- create instance of ValidationError for whitelist errors ([#434](https://github.com/typestack/class-validator-fix/issues/434)) ([a98f5dd](https://github.com/typestack/class-validator-fix/commit/a98f5dd)), closes [#325](https://github.com/typestack/class-validator-fix/issues/325)
+- pass context for isDefined and custom validators ([#296](https://github.com/typestack/class-validator-fix/issues/296)) ([0ef898e](https://github.com/typestack/class-validator-fix/commit/0ef898e)), closes [#292](https://github.com/typestack/class-validator-fix/issues/292)
 
 #### Added
 
-- add isHash validator ([#445](https://github.com/typestack/class-validator/issues/445)) ([c454cf9](https://github.com/typestack/class-validator/commit/c454cf9))
-- add isISSN validator ([#450](https://github.com/typestack/class-validator/issues/450)) ([4bd586e](https://github.com/typestack/class-validator/commit/4bd586e))
-- add isJWT validator ([#444](https://github.com/typestack/class-validator/issues/444)) ([874861b](https://github.com/typestack/class-validator/commit/874861b))
-- add isMACAddress validator ([#449](https://github.com/typestack/class-validator/issues/449)) ([45b7df7](https://github.com/typestack/class-validator/commit/45b7df7))
-- add support for maxDecimalPlaces on IsNumber ([#381](https://github.com/typestack/class-validator/issues/381)) ([a4dc10e](https://github.com/typestack/class-validator/commit/a4dc10e))
+- add isHash validator ([#445](https://github.com/typestack/class-validator-fix/issues/445)) ([c454cf9](https://github.com/typestack/class-validator-fix/commit/c454cf9))
+- add isISSN validator ([#450](https://github.com/typestack/class-validator-fix/issues/450)) ([4bd586e](https://github.com/typestack/class-validator-fix/commit/4bd586e))
+- add isJWT validator ([#444](https://github.com/typestack/class-validator-fix/issues/444)) ([874861b](https://github.com/typestack/class-validator-fix/commit/874861b))
+- add isMACAddress validator ([#449](https://github.com/typestack/class-validator-fix/issues/449)) ([45b7df7](https://github.com/typestack/class-validator-fix/commit/45b7df7))
+- add support for maxDecimalPlaces on IsNumber ([#381](https://github.com/typestack/class-validator-fix/issues/381)) ([a4dc10e](https://github.com/typestack/class-validator-fix/commit/a4dc10e))
 
 ### BREAKING CHANGES
 
 - update @types/validator from 11.1.0 to version 12.0.0 - please check it's [changelog][validator-js-release-notes]
 
-### [0.10.2](https://github.com/typestack/class-validator/compare/v0.10.1...v0.10.2) (2019-10-14)
+### [0.10.2](https://github.com/typestack/class-validator-fix/compare/v0.10.1...v0.10.2) (2019-10-14)
 
 #### Fixed
 
-- apply custom constraint class validation to each item in the array ([#295](https://github.com/typestack/class-validator/issues/295)) ([5bb704e](https://github.com/typestack/class-validator/commit/5bb704e)), closes [#260](https://github.com/typestack/class-validator/issues/260)
+- apply custom constraint class validation to each item in the array ([#295](https://github.com/typestack/class-validator-fix/issues/295)) ([5bb704e](https://github.com/typestack/class-validator-fix/commit/5bb704e)), closes [#260](https://github.com/typestack/class-validator-fix/issues/260)
 
 #### Added
 
-- add isLatLong, isLatitude, isLongtitude validators ([#427](https://github.com/typestack/class-validator/issues/427)) ([3fd15c4](https://github.com/typestack/class-validator/commit/3fd15c4)), closes [#415](https://github.com/typestack/class-validator/issues/415)
-- add IsObject and IsNotEmptyObject new decorators ([#334](https://github.com/typestack/class-validator/issues/334)) ([0a41aeb](https://github.com/typestack/class-validator/commit/0a41aeb))
-- support ES6 Map and Set for regular validators with each option ([#430](https://github.com/typestack/class-validator/issues/430)) ([a055bba](https://github.com/typestack/class-validator/commit/a055bba)), closes [#428](https://github.com/typestack/class-validator/issues/428)
+- add isLatLong, isLatitude, isLongtitude validators ([#427](https://github.com/typestack/class-validator-fix/issues/427)) ([3fd15c4](https://github.com/typestack/class-validator-fix/commit/3fd15c4)), closes [#415](https://github.com/typestack/class-validator-fix/issues/415)
+- add IsObject and IsNotEmptyObject new decorators ([#334](https://github.com/typestack/class-validator-fix/issues/334)) ([0a41aeb](https://github.com/typestack/class-validator-fix/commit/0a41aeb))
+- support ES6 Map and Set for regular validators with each option ([#430](https://github.com/typestack/class-validator-fix/issues/430)) ([a055bba](https://github.com/typestack/class-validator-fix/commit/a055bba)), closes [#428](https://github.com/typestack/class-validator-fix/issues/428)
 
-### [0.10.1](https://github.com/typestack/class-validator/compare/v0.10.0...v0.10.1) (2019-09-25)
+### [0.10.1](https://github.com/typestack/class-validator-fix/compare/v0.10.0...v0.10.1) (2019-09-25)
 
 #### Fixed
 
-- add default message for isMilitaryTime validator ([#411](https://github.com/typestack/class-validator/issues/411)) ([204b7df](https://github.com/typestack/class-validator/commit/204b7df)), closes [#287](https://github.com/typestack/class-validator/issues/287)
-- add default message for isPort validator ([#404](https://github.com/typestack/class-validator/issues/404)) ([74e568c](https://github.com/typestack/class-validator/commit/74e568c))
-- add locale parameter for isAlpha and isAlphanumeric validat… ([#406](https://github.com/typestack/class-validator/issues/406)) ([2f4bf4e](https://github.com/typestack/class-validator/commit/2f4bf4e))
+- add default message for isMilitaryTime validator ([#411](https://github.com/typestack/class-validator-fix/issues/411)) ([204b7df](https://github.com/typestack/class-validator-fix/commit/204b7df)), closes [#287](https://github.com/typestack/class-validator-fix/issues/287)
+- add default message for isPort validator ([#404](https://github.com/typestack/class-validator-fix/issues/404)) ([74e568c](https://github.com/typestack/class-validator-fix/commit/74e568c))
+- add locale parameter for isAlpha and isAlphanumeric validat… ([#406](https://github.com/typestack/class-validator-fix/issues/406)) ([2f4bf4e](https://github.com/typestack/class-validator-fix/commit/2f4bf4e))
 
 #### Added
 
-- add `skipUndefinedProperties`, `skipNullProperties` options ([#414](https://github.com/typestack/class-validator/issues/414)) ([76c948a](https://github.com/typestack/class-validator/commit/76c948a)), closes [#308](https://github.com/typestack/class-validator/issues/308)
+- add `skipUndefinedProperties`, `skipNullProperties` options ([#414](https://github.com/typestack/class-validator-fix/issues/414)) ([76c948a](https://github.com/typestack/class-validator-fix/commit/76c948a)), closes [#308](https://github.com/typestack/class-validator-fix/issues/308)
 
-### [0.10.0](https://github.com/typestack/class-validator/compare/v0.9.1...v0.10.0) (2019-08-10)
+### [0.10.0](https://github.com/typestack/class-validator-fix/compare/v0.9.1...v0.10.0) (2019-08-10)
 
 #### Fixed
 
-- add correct signature for custom error message handler ([249c41d](https://github.com/typestack/class-validator/commit/249c41d))
+- add correct signature for custom error message handler ([249c41d](https://github.com/typestack/class-validator-fix/commit/249c41d))
 
 #### Added
 
-- add `IsISO31661Alpha3` and `IsISO31661Alpha2` validators ([#273](https://github.com/typestack/class-validator/issues/273)) ([55c57b3](https://github.com/typestack/class-validator/commit/55c57b3))
-- **IsDecimal:** implement `IsDecimal` from validatorjs ([#359](https://github.com/typestack/class-validator/issues/359)) ([b4c8e21](https://github.com/typestack/class-validator/commit/b4c8e21))
-- add `isPort` decorator ([#282](https://github.com/typestack/class-validator/issues/282)) ([36684ec](https://github.com/typestack/class-validator/commit/36684ec))
-- allow validate Map/Set ([#365](https://github.com/typestack/class-validator/issues/365)) ([f6fcdc5](https://github.com/typestack/class-validator/commit/f6fcdc5))
-- new `ValidatePromise` decorator - resolve promise before validate ([#369](https://github.com/typestack/class-validator/issues/369)) ([35ec04d](https://github.com/typestack/class-validator/commit/35ec04d))
-- replace instanceof Promise and support Promise/A+ ([#310](https://github.com/typestack/class-validator/issues/310)) ([59eac09](https://github.com/typestack/class-validator/commit/59eac09))
-- `isNumberString` now accept validator.js `IsNumericOptions` as second parameter ([#262](https://github.com/typestack/class-validator/issues/262))
+- add `IsISO31661Alpha3` and `IsISO31661Alpha2` validators ([#273](https://github.com/typestack/class-validator-fix/issues/273)) ([55c57b3](https://github.com/typestack/class-validator-fix/commit/55c57b3))
+- **IsDecimal:** implement `IsDecimal` from validatorjs ([#359](https://github.com/typestack/class-validator-fix/issues/359)) ([b4c8e21](https://github.com/typestack/class-validator-fix/commit/b4c8e21))
+- add `isPort` decorator ([#282](https://github.com/typestack/class-validator-fix/issues/282)) ([36684ec](https://github.com/typestack/class-validator-fix/commit/36684ec))
+- allow validate Map/Set ([#365](https://github.com/typestack/class-validator-fix/issues/365)) ([f6fcdc5](https://github.com/typestack/class-validator-fix/commit/f6fcdc5))
+- new `ValidatePromise` decorator - resolve promise before validate ([#369](https://github.com/typestack/class-validator-fix/issues/369)) ([35ec04d](https://github.com/typestack/class-validator-fix/commit/35ec04d))
+- replace instanceof Promise and support Promise/A+ ([#310](https://github.com/typestack/class-validator-fix/issues/310)) ([59eac09](https://github.com/typestack/class-validator-fix/commit/59eac09))
+- `isNumberString` now accept validator.js `IsNumericOptions` as second parameter ([#262](https://github.com/typestack/class-validator-fix/issues/262))
 
 ### BREAKING CHANGES
 
-- update @types/validator from 10.4.0 to version 10.11.2 - please check it's [changelog][validator-js-release-notes] ([cb960dd](https://github.com/typestack/class-validator/commit/cb960dd))
-- `isDateString` now check to match only entire ISO Date ([#275](https://github.com/typestack/class-validator/issues/275)) ([5012464](https://github.com/typestack/class-validator/commit/5012464))
+- update @types/validator from 10.4.0 to version 10.11.2 - please check it's [changelog][validator-js-release-notes] ([cb960dd](https://github.com/typestack/class-validator-fix/commit/cb960dd))
+- `isDateString` now check to match only entire ISO Date ([#275](https://github.com/typestack/class-validator-fix/issues/275)) ([5012464](https://github.com/typestack/class-validator-fix/commit/5012464))
 - remove `IsCurrencyOptions`, `IsURLOptions`, `IsEmailOptions`, `IsFQDNOptions` interfaces and replace with interfaces from `@types/validator`
 
-### [0.9.1](https://github.com/typestack/class-validator/compare/v0.9.0...v0.9.1)
+### [0.9.1](https://github.com/typestack/class-validator-fix/compare/v0.9.0...v0.9.1)
 
 #### Added
 
@@ -205,7 +205,7 @@ _This changelog follows the [keep a changelog][keep-a-changelog]_ format to main
 
 - validating against a schema will validate against that one instead of every registered one
 
-### [0.9.0](https://github.com/typestack/class-validator/compare/v0.8.5...v0.9.0) [BREAKING CHANGE]
+### [0.9.0](https://github.com/typestack/class-validator-fix/compare/v0.8.5...v0.9.0) [BREAKING CHANGE]
 
 #### Added
 
@@ -221,13 +221,13 @@ _This changelog follows the [keep a changelog][keep-a-changelog]_ format to main
 - the `Min` and `Max` decorator will corectly show an inclusive error message when failing
 - fixed a runtime error when `validationArguments.value` is not a string
 
-### [0.8.5](https://github.com/typestack/class-validator/compare/v0.8.4...v0.8.5)
+### [0.8.5](https://github.com/typestack/class-validator-fix/compare/v0.8.4...v0.8.5)
 
 #### Fixed
 
 - remove `ansicolor` package, because it's incompatible with IE
 
-### [0.8.4](https://github.com/typestack/class-validator/compare/v0.8.3...v0.8.4)
+### [0.8.4](https://github.com/typestack/class-validator-fix/compare/v0.8.3...v0.8.4)
 
 #### Added
 
@@ -235,13 +235,13 @@ _This changelog follows the [keep a changelog][keep-a-changelog]_ format to main
   - it's highly advised to turn this option on
   - now this option defaults to `false` but will be default to `true` after the **1.0** release
 
-### [0.8.3](https://github.com/typestack/class-validator/compare/v0.8.2...v0.8.3)
+### [0.8.3](https://github.com/typestack/class-validator-fix/compare/v0.8.2...v0.8.3)
 
 #### Fixed
 
 - handle when `target` property is undefined when calling `ValidationError.toString()`
 
-### [0.8.2](https://github.com/typestack/class-validator/compare/v0.8.1...v0.8.2)
+### [0.8.2](https://github.com/typestack/class-validator-fix/compare/v0.8.1...v0.8.2)
 
 #### Added
 
@@ -255,7 +255,7 @@ _This changelog follows the [keep a changelog][keep-a-changelog]_ format to main
 - corrected `IsNumericString` to `IsNumberString` in the README
 - fixed type of `host_whitelist` and `host_backlist` in `IsURLOptions`
 
-### [0.8.1](https://github.com/typestack/class-validator/compare/v0.8.0...v0.8.1)
+### [0.8.1](https://github.com/typestack/class-validator-fix/compare/v0.8.0...v0.8.1)
 
 #### Fixed
 
@@ -345,7 +345,7 @@ _This changelog follows the [keep a changelog][keep-a-changelog]_ format to main
 
 #### Added
 
-- everything should be imported from "class-validator" main entry point now
+- everything should be imported from "class-validator-fix" main entry point now
 - `ValidatorInterface` has been renamed to `ValidatorConstraintInterface`
 - contain can be set in the main entry point now
 - some decorator's names changed. Be aware of this
@@ -370,10 +370,10 @@ _This changelog follows the [keep a changelog][keep-a-changelog]_ format to main
 
 #### Added
 
-- package has changed its name from `validator.ts` to `class-validator`.
+- package has changed its name from `validator.ts` to `class-validator-fix`.
 - sanitation functionality has been removed from this library. Use [class-sanitizer][class-sanitizer] instead.
 
-[class-sanitizer]: https://github.com/typestack/class-validator/class-sanitizer
+[class-sanitizer]: https://github.com/typestack/class-validator-fix/class-sanitizer
 [validator-js]: https://github.com/chriso/validator.js
 [validator-js-release-notes]: https://github.com/chriso/validator.js/blob/master/CHANGELOG.md
 [google-libphonenumber]: https://github.com/ruimarinho/google-libphonenumber

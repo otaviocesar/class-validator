@@ -1,6 +1,6 @@
 > **IMPORTANT NOTE!**
 >
-> This repository is a fork of the original [`class-validator-fix`](https://github.com/typestack/class-validator-fix) package.
+> This repository is a fork of the original [`class-validator`](https://github.com/typestack/class-validator-fix) package.
 
 # class-validator-fix
 
